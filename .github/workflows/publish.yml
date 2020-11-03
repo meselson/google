@@ -1,0 +1,33 @@
+name: Get Free
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 16 * * *'
+  watch:
+    types: [started]
+
+jobs:
+  GETFREE:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+    - name: checkout actions
+      uses: actions/checkout@v2
+    - name: Set python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.8'
+    - name: Install dependencies
+      run: python -m pip install --upgrade requests
+      
+    - name: 'Get Today Free'
+      run: python getfree.py
+   
+    - name: commit
+      run: |
+        git config --global user.email ${{ secrets.EMAIL }}
+        git config --global user.name ${{ secrets.NAME }}
+        git add .
+        git commit -m "update" -a
+        git push origin main
