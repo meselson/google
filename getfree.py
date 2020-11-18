@@ -6,6 +6,6 @@ url = f'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/{today}c
 info = requests.get(url)
 if info.status_code == '200':
     with open('free.yml', 'w', encoding = 'UTF-8') as f:
-        f.write(info)
+        f.write(info.text)
 else:
     print (f'{today} no data')
