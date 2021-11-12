@@ -5,26 +5,27 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港, server: azhk5.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk5.ssrcloud.co}}
-  - {name: 🇭🇰 香港 2, server: 207.46.146.247, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.146.247}}
-  - {name: 🇭🇰 香港 3, server: 65.52.179.8, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.179.8}}
-  - {name: 🇭🇰 香港 4, server: azhk3.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.ssrcloud.co}}
-  - {name: 🇭🇰 香港 5, server: 65.52.186.239, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.186.239}}
-  - {name: 🇭🇰 香港 6, server: 75.2.123.4, port: 40202, type: vmess, uuid: 91099f8a-b72a-3b1b-9f12-cdc0d255c583, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /honda, ws-headers: {Host: 75.2.123.4}}
-  - {name: 🇯🇵 日本, server: 45.77.181.167, port: 35404, type: vmess, uuid: a216fb5c-8559-43b4-a4f7-82a50b75328c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾, server: 103.98.75.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国, server: GB02-1-ISYVE.233cloud-node.com, port: 233, type: vmess, uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: GB02-1-ISYVE.233cloud-node.com}}
-  - {name: 🇺🇲 美国, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 台湾 2, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇦🇺 澳大利亚, server: AU02-1-Y8DDV.233cloud-node.com, port: 233, type: vmess, uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: AU02-1-Y8DDV.233cloud-node.com}}
-  - {name: 🇨🇦 加拿大, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇳🇱 荷兰, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾 3, server: 2.58.241.4, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 4, server: 120.232.194.76, port: 12345, type: vmess, uuid: 9f77a637-8f98-3e27-a5dd-fbc2b8d99fe2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: a4.invictus.network}}
-  - {name: 🇸🇬 新加坡, server: gz-yd.mugun.xyz, port: 111, type: vmess, uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gz-yd.mugun.xyz}}
-  - {name: 🇸🇬 新加坡 2, server: 172.104.163.103, port: 14750, type: vmess, uuid: 2d127104-4cad-408e-e94e-733b89ec8ad3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 172.104.163.103}}
-  - {name: 🇨🇳 台湾 5, server: 2.58.241.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇲 美国 2, server: 34.72.52.247, port: 58491, type: vmess, uuid: c3ec2bdf-9e42-4a91-9b2f-0dbf84fe3544, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 34.72.52.247}}
+  - {name: 🇭🇰 香港, server: azhk3.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.ssrcloud.co}}
+  - {name: 🇭🇰 香港 2, server: azhk1.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.ssrcloud.co}}
+  - {name: 🇭🇰 香港 3, server: 207.46.146.247, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.ssrcloud.co}}
+  - {name: 🇭🇰 香港 4, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
+  - {name: 🇯🇵 日本, server: 84.17.34.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 新加坡, server: sg.ss.pinssr.cf, port: 20217, type: ss, cipher: chacha20-ietf-poly1305, password: 00da135f-a486-4f0b-a16c-568fd8a5b162}
+  - {name: 🇸🇬 新加坡 2, server: sgaws1.pinssr.online, port: 20214, type: vmess, uuid: 00da135f-a486-4f0b-a16c-568fd8a5b162, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pinssr/comsgaws1, ws-headers: {Host: sgaws1.pinssr.online}}
+  - {name: 🇯🇵 日本 2, server: 84.17.34.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本 3, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本 4, server: 45.87.213.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本 5, server: 103.208.221.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 香港 5, server: 212.102.42.194, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本 6, server: xzssjp.pinssr.cf, port: 20214, type: ss, cipher: chacha20-ietf-poly1305, password: 00da135f-a486-4f0b-a16c-568fd8a5b162}
+  - {name: 🇭🇰 香港 6, server: 212.102.42.204, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本 7, server: 45.87.213.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 香港 7, server: 84.17.57.68, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇭🇰 香港 8, server: 84.17.57.71, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国, server: 192.111.134.202, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾, server: 2.58.241.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 新加坡 3, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国 2, server: 209.58.128.50, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,21 +36,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: ♻️ 自动选择
     type: url-test
@@ -60,21 +62,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: 🌍 国外媒体
     type: select
@@ -86,21 +89,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: 📲 电报信息
     type: select
@@ -111,21 +115,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: Ⓜ️ 微软服务
     type: select
@@ -136,21 +141,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: 🍎 苹果服务
     type: select
@@ -161,21 +167,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: 📢 谷歌FCM
     type: select
@@ -187,21 +194,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
   - name: 🎯 全球直连
     type: select
@@ -229,21 +237,22 @@ proxy-groups:
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
       - 🇯🇵 日本
-      - 🇨🇳 台湾
-      - 🇬🇧 英国
-      - 🇺🇲 美国
-      - 🇨🇳 台湾 2
-      - 🇦🇺 澳大利亚
-      - 🇨🇦 加拿大
-      - 🇳🇱 荷兰
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
-      - 🇨🇳 台湾 5
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本 6
+      - 🇭🇰 香港 6
+      - 🇯🇵 日本 7
+      - 🇭🇰 香港 7
+      - 🇭🇰 香港 8
+      - 🇺🇲 美国
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 3
       - 🇺🇲 美国 2
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
